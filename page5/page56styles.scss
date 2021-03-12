@@ -1,6 +1,6 @@
 .sect5 {
     background-image: url(../image/sect5back.jpg);
-    height: 900px;
+    height: 500px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,15 +8,15 @@
     
 }
 .s6cont {
-    height: 637px  ;
+    height: 700px  ;
     max-width: 1800px;
     display: flex;
-    background-color: $appwhite;
+    background-color:$appwhite;
     
 }
 .lilbox {
     width: 900px;
-    height: 100%;
+    
     position: relative;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,11 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+
   }
   
   input[type=submit]:hover {
@@ -60,14 +64,18 @@ input[type=text], select, textarea {
   
   .col-25 {
     float: left;
-    width: 25%;
+    width: 15%;
     margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+
   }
   
   .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+
   }
   .row:after {
   content: "";
@@ -80,57 +88,83 @@ input[type=text], select, textarea {
       margin-top: 0;
     }
   }
-  .map {
-    width: 400px;
-    height: 400px;
+  
     
     
   
-  }
+ 
   .textebi {
       max-width: 1800px;
       display: flex;
 
   }
   .reviewtext {
-      width: 400px;
+      width: 380px;
       font-size: 25px;
-      margin-left: 15%;
-      padding-top: 100px;
+     margin-left: 130px;
+      margin-top: 100px;
+      font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
 
      
       
   }
-  .lilbox p {
-      padding-bottom: 100px;
+  
 
-  }
   .maptext {
-      padding-top: 10%;
-      font-size:  30px;
-      margin:0 auto;
+      
+      font-size:  25px;
+      
+      font-family: 'Noto Sans JP', sans-serif;
+      margin-top: 100px;
+      font-weight: bold;
+      width: 200px;
+
      
   }
  
  .span-contact {
-     font-size: 30px;
-     color:red;
+     font-size: 15px;
+     color: black;
+     font-weight: bold;
+     font-family: 'Open Sans', sans-serif;
     
     }
      
 .contact-a {
 
 font-size: 16px;
-color: green;
+color: $appblue;
+font-family: 'Open Sans', sans-serif;
+;
 }
 .lipp {
-    padding-top: 10px;
+    margin-top: 20px;
 }
-.testtt {
+
+
+//*animation 
+.anime {
+  width: 450px;
   font-size: 40px;
-  margin-left: 700px;
-  padding-top: 200px;
+  margin:0 auto;
+  margin-top: 200px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
   
 
   
+}
+.map {
+  margin-top: 50px;
+}
+
+.bb1 {
+  background-color: #ffe680;
+}
+.bb2 {
+  margin-left: 100px;
+}
+.lastimg {
+  float: right;
 }
