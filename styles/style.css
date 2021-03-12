@@ -39,7 +39,7 @@ a {
 
 .main-header {
   background-image: url("../image/main.png");
-  height: 1080px;
+  height: 900px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,11 +66,13 @@ a {
   margin-right: 40px; }
 
 .header-tittle {
+  width: 400px;
+  height: 400px;
   left: 50%;
-  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
-  color: black;
-  white-space: nowrap; }
+  color: black; }
 
 .btn {
   background-color: none;
@@ -97,7 +99,6 @@ a {
   color: #0072ed; }
 
 .textarea1 {
-  padding-top: 100px;
   width: 350px;
   height: 200px;
   left: 39%;
@@ -105,7 +106,8 @@ a {
   position: absolute; }
 
 .buttons1 {
-  margin-top: 110px;
+  margin-left: 150px;
+  margin-top: 30px;
   width: 100px;
   height: 40px;
   background-color: #0072ed;
@@ -120,8 +122,7 @@ a {
   opacity: 1;
   transition: 0.3s;
   font-size: 18px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  align-self: center;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif; }
 
@@ -133,6 +134,10 @@ a {
 
 .textt {
   font-family: 'Noto Sans JP', sans-serif; }
+
+.textarea {
+  margin-top: 30px;
+  padding-left: 30px; }
 
 .container {
   max-width: 1170px;
@@ -302,7 +307,8 @@ a {
 .s6cont {
   height: 637px;
   max-width: 1800px;
-  display: flex; }
+  display: flex;
+  background-color: #f5f5f7; }
 
 .lilbox {
   width: 900px;
@@ -323,8 +329,8 @@ label {
   display: inline-block; }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #2997ff;
+  color: #f5f5f7;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -332,7 +338,7 @@ input[type=submit] {
   float: right; }
 
 input[type=submit]:hover {
-  background-color: #45a049; }
+  background-color: #2997ff; }
 
 .xxbox {
   border-radius: 5px;
@@ -395,3 +401,11 @@ input[type=submit]:hover {
   font-size: 40px;
   margin-left: 700px;
   padding-top: 200px; }
+
+@media (max-width: 1100px) {
+  .head-wrap {
+    padding: 50px 15px  0 15px; } }
+
+@media (max-width: 991px) {
+  .navigate {
+    display: none; } }

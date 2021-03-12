@@ -11,6 +11,7 @@
     height: 637px  ;
     max-width: 1800px;
     display: flex;
+    background-color: $appwhite;
     
 }
 .lilbox {
@@ -36,8 +37,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: $appblue ;
+    color: $appwhite;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -46,7 +47,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: $appblue ;
   }
   
   .xxbox {
@@ -108,6 +109,7 @@ input[type=text], select, textarea {
       padding-top: 10%;
       font-size:  30px;
       margin:0 auto;
+     
   }
  
  .span-contact {
@@ -127,5 +129,8 @@ color: green;
 .testtt {
   font-size: 40px;
   margin-left: 700px;
-  padding-top: 200px;  
+  padding-top: 200px;
+  
+
+  
 }

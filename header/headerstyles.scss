@@ -1,6 +1,6 @@
 .main-header {
     background-image: url('../image/main.png');
-    height: 1080px;
+    height: 900px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,15 +27,18 @@
     margin-right: 40px;
 }
 .header-tittle {
-    
+    width: 400px;
+    height: 400px;
     left: 50%;
-    right: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    
     position: absolute;
    
     color:black;
    
     
-    white-space: nowrap;
+    
 
 }
 
@@ -49,6 +52,7 @@
 .headt-flex {
     display: flex;
   flex-direction: column;
+  
 }
 
     
@@ -79,7 +83,7 @@ margin-top: 30px;
 }
 
 .textarea1 {
-    padding-top: 100px;
+    
     width: 350px;
     height: 200px;
     left: 39%;
@@ -89,7 +93,8 @@ margin-top: 30px;
    
 }
 .buttons1 {
-    margin-top: 110px;
+    margin-left: 150px;
+    margin-top: 30px;
     width: 100px  ;
     height: 40px   ;
     background-color: #0072ed ;
@@ -104,9 +109,9 @@ margin-top: 30px;
     opacity: 1;
     transition: 0.3s;
     font-size: 18px;
+    align-self: center;
     
-    left: 50%;
-    transform:translate(-50%,-50%) ;
+    
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
 
@@ -118,4 +123,10 @@ margin-top: 30px;
 }
 .textt {
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+.textarea {
+    margin-top:30px;
+    padding-left: 30px;
+
 }
