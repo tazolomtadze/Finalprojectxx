@@ -12,7 +12,7 @@
 }
 
 
-@media (max-width:991px) {
+@media (max-width:768px) {
 .burger-icon{
     color:red;
     display: block;
@@ -21,6 +21,9 @@
     top: 40px;
     right: 30px;
     cursor:pointer;
+  }
+  .head-wrap {
+      position: relative;
   }
 }
 

@@ -451,7 +451,7 @@ input[type=submit]:hover {
   .navigate {
     display: none; } }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .burger-icon {
     color: red;
     display: block;
@@ -459,7 +459,15 @@ input[type=submit]:hover {
     position: absolute;
     top: 40px;
     right: 30px;
-    cursor: pointer; } }
+    cursor: pointer; }
+  .head-wrap {
+    position: relative; } }
+
+@media (max-width: 768px) {
+  .wrapper,
+  ul {
+    display: block;
+    text-align: center; } }
 
 @media (max-width: 1200px) {
   .s4box-wraper {
