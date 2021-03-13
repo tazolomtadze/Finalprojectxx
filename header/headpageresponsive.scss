@@ -6,6 +6,29 @@
 @media (max-width:991px) {
     .navigate {
         display: none;
+        
     }
 
+}
+
+
+@media (max-width:991px) {
+.burger-icon{
+    color:red;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor:pointer;
+  }
+}
+
+
+@media (max-width: 768px){
+    .wrapper, 
+    ul{
+      display: block;
+      text-align: center;
+    }   
 }
