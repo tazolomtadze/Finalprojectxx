@@ -4,24 +4,23 @@
  }   
 }
 @media (max-width:991px) {
-    .navigate {
+    .nav-ul {
         display: none;
         
     }
+    .burger-icon{
+   
+        display: block;
+        font-size: 30px;
+        
+        cursor:pointer;
+      }
 
 }
 
 
 @media (max-width:768px) {
-.burger-icon{
-    color:red;
-    display: block;
-    font-size: 30px;
-    position: absolute;
-    top: 40px;
-    right: 30px;
-    cursor:pointer;
-  }
+
   .head-wrap {
       position: relative;
   }
