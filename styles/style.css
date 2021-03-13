@@ -321,7 +321,8 @@ a {
 
 .sect5 {
   background-image: url(../image/sect5back.jpg);
-  height: 500px;
+  max-width: 1000px;
+  height: 700px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -428,7 +429,7 @@ input[type=submit]:hover {
   width: 450px;
   font-size: 40px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 50px;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: bold; }
 
@@ -445,14 +446,14 @@ input[type=submit]:hover {
   float: right; }
 
 .view_port {
-  margin-top: 30px;
+  margin-top: 60px;
   background-color: black;
   height: 25px;
   width: 100%;
   overflow: hidden; }
 
 .cylon_eye {
-  background-color: red;
+  background-color: #ffe680;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
   color: white;
   height: 100%;
@@ -514,6 +515,13 @@ input[type=submit]:hover {
   .boxs4:nth-child(6) {
     margin-top: 30px; } }
 
+@media (max-width: 925px) {
+  boxs4:nth-child(2),
+  .boxs4:nth-child(1),
+  .boxs4:nth-child(3),
+  .boxs4:nth-child(5) {
+    margin-left: 20px; } }
+
 @media (max-width: 780px) {
   .box-wraper {
     flex-wrap: wrap; }
@@ -551,3 +559,18 @@ input[type=submit]:hover {
   .sect3-watch {
     left: 20%;
     top: 5%; } }
+
+@media (max-width: 790px) {
+  .sectp3 {
+    background-image: url("../image/watch2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .p3-text {
+    font-size: 30px;
+    line-height: 1;
+    left: 170px; } }
+
+@media (max-width: 620px) {
+  .sect3-watch {
+    display: none; } }

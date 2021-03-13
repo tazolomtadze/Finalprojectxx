@@ -27,4 +27,12 @@ boxs4:nth-child(2) ,
         
 
 }
+@media (max-width:925px) {
+    boxs4:nth-child(2) ,
+        .boxs4:nth-child(1) ,
+        .boxs4:nth-child(3) ,
+        .boxs4:nth-child(5) , {
+            margin-left : 20px;
+    }
+    }
 

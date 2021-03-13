@@ -12,3 +12,21 @@
         top:5% ;
     }
 }
+@media (max-width:790px) {
+    .sectp3 {
+    background-image: url('../image/watch2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.p3-text {
+    font-size: 30px;
+    line-height: 1;
+    left:170px;
+}
+}
+@media (max-width:620px) {
+    .sect3-watch {
+        display: none;
+    }
+}
