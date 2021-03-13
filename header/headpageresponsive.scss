@@ -4,23 +4,24 @@
  }   
 }
 @media (max-width:991px) {
-    .nav-ul {
+    .navigate {
         display: none;
         
     }
-    .burger-icon{
-   
-        display: block;
-        font-size: 30px;
-        
-        cursor:pointer;
-      }
 
 }
 
 
 @media (max-width:768px) {
-
+.burger-icon{
+    color:red;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor:pointer;
+  }
   .head-wrap {
       position: relative;
   }
@@ -33,10 +34,4 @@
       display: block;
       text-align: center;
     }   
-}
-
-@media (max-width: 991px) {
-  .burger-icon {
-    font-size: 30px ;
-  }
 }

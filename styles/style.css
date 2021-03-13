@@ -321,7 +321,7 @@ a {
 
 .sect5 {
   background-image: url(../image/sect5back.jpg);
-  max-width: 1800px;
+  max-width: 1000px;
   height: 700px;
   width: 100%;
   background-repeat: no-repeat;
@@ -332,10 +332,13 @@ a {
   height: 700px;
   max-width: 1800px;
   display: flex;
-  background-color: #f5f5f7; }
+  background-color: #f5f5f7;
+  /*flex-wrap: wrap; */
+}
 
 .lilbox {
-  width: 900px;
+  max-width: 900px;
+  width:100%;
   position: relative;
   display: flex;
   flex-direction: column; }
@@ -350,7 +353,15 @@ input[type=text], select, textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block; }
-
+.iframe-map {
+  max-width: 500px;
+  width:100%;
+}
+@media (max-width:950px) {
+  .s6cont {
+    flex-wrap: wrap;
+  }
+}
 input[type=submit] {
   background-color: #2997ff;
   color: #f5f5f7;
@@ -479,13 +490,22 @@ input[type=submit]:hover {
 
 @media (max-width: 991px) {
   .nav-ul {
-    display: none; }
+    display: none; 
+  } 
   .burger-icon {
-    display: block;
-    font-size: 30px;
-    cursor: pointer; } }
+    display:block;
+  }
+}
 
 @media (max-width: 768px) {
+  .burger-icon {
+    color: red;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor: pointer; }
   .head-wrap {
     position: relative; } }
 
@@ -494,10 +514,6 @@ input[type=submit]:hover {
   ul {
     display: block;
     text-align: center; } }
-
-@media (max-width: 991px) {
-  .burger-icon {
-    font-size: 30px; } }
 
 @media (max-width: 1200px) {
   .s4box-wraper {
